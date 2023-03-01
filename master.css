@@ -399,6 +399,7 @@ ul.our-nav li ul a{
     position: absolute;
     top: 80px;
     z-index: -1;
+    background-color: rgb(255 255 255 / 70%);
     opacity: 0;
     visibility: hidden;
   }
