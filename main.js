@@ -16,18 +16,18 @@ span.onclick = function () {
     behavior: "smooth",
   });
 };
-const navtoggle = document.getElementById('icon');
-const nav = document.getElementById('our-nav');
-navtoggle.addEventListener('click', function(e) {
-  nav.classList.toggle('tarik');
-} )
+// const navtoggle = document.getElementById('icon');
+// const nav = document.getElementById('our-nav');
+// navtoggle.addEventListener('click', function(e) {
+//   nav.classList.toggle('tarik');
+// } )
 
-const active = document.getElementById('active')
-const tarik = document.getElementById('tarik-2')
+// const active = document.getElementById('active')
+// const tarik = document.getElementById('tarik-2')
 
-active.addEventListener('click', function (e) {
-  tarik.classList.toggle('navbarr-2')
-})
+// active.addEventListener('click', function (e) {
+//   tarik.classList.toggle('navbarr-2')
+// })
 
 // let btn = document.querySelector(".toggle-menu");
 // // let ul = document.querySelector(".our-nav");
@@ -39,7 +39,7 @@ active.addEventListener('click', function (e) {
 //     ul.style.display = "none";
 //   }
 // };
-const close = document.querySelector(".closee");
-close.onclick = () => {
-  tarik.classList.add("our-close");
-}
+// const close = document.querySelector(".closee");
+// close.onclick = () => {
+//   tarik.classList.add("our-close");
+// }

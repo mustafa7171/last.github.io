@@ -322,7 +322,7 @@ ul.our-nav li ul a{
   }
   .content .links li a,
   .content .links li label{
-    /* color: #fff; */
+    color: var(--main-color-alt);
     font-size: 18px;
     font-weight: 500;
     padding: 9px 17px;
@@ -455,7 +455,7 @@ ul.our-nav li ul a{
     nav .content .links{
       display: block;
       position: fixed;
-      background: rgb(255 255 255 / 50%);
+      background: rgb(255 255 255 / 70%);
       height: 100%;
       width: 100%;
       top: 70px;
@@ -467,7 +467,7 @@ ul.our-nav li ul a{
       transition: all 0.3s ease;
     }
     nav #show-menu:checked ~ .content .links{
-      left: 0%;
+      left: 3.5%;
     }
     .content .links li{
       margin: 0 auto;
@@ -571,7 +571,9 @@ ul.our-nav li ul a{
 .show-features{
     background-color: #ececec;
 }
-
+label i{
+    font-weight: 900;
+}
 .landing{
     position: relative;
     overflow: hidden;
@@ -1473,6 +1475,7 @@ ul.commponent li{
 }
 .en-des h3{
     padding: 5px 0;
+    width: 100%;
     text-align: right;
     width: fit-content;
     margin-left: auto;
