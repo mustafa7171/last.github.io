@@ -456,7 +456,7 @@ ul.our-nav li ul a{
     nav .content .links{
       display: block;
       position: fixed;
-      background: rgb(255 255 255 / 70%);
+      background: rgb(255 255 255 / 80%);
       height: 100%;
       width: 100%;
       top: 70px;
@@ -513,7 +513,7 @@ ul.our-nav li ul a{
         width: fit-content;
     }
     .content .links ul li a{
-      font-size: 18px;
+      font-size: 20px;
       line-height: 30px;
       border-radius: 5px!important;
     }
